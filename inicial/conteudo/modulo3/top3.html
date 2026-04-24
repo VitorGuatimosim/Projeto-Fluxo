@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+				  
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="../../../Estilo/layoutTop.css">
+  	<link rel="stylesheet" href="../../../Estilo/material.css">
+
+	<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+	<title>Radiação de um corpo negro</title>
+
+</head>
+<body>
+
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+			
+				<div ><a href="../../home.html" class="logo"><img src="../../../imagens/logo.png" class="logo" title="Página inicial"></a></div>
+			
+				<div class="mdl-layout-spacer"></div>
+				
+				<nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="../../modulos.html">Módulos</a>
+				</nav>
+			</div>
+		</header>
+
+	
+		<div class="box">
+			<div class="sumario">
+				
+				<p class="titulo">Sumário</p>
+
+				<div class="links">
+					<ol>
+						<li>
+							<a href="#topo" class="link">Topo</a>
+						</li>
+						<li>
+							<a href="#introducao" class="link">Introdução</a>
+                        </li>
+                        <li>
+							<a href="#explicacao" class="link">Explicação do Conceito</a>
+                        </li>
+                        <li>
+							<a href="#graficoIntensidadeOnda" class="link">Gráfico de Intensidade</a>
+                        </li>
+                        <li>
+							<a href="#deslocamentoWien" class="link">Lei do deslocamento de Wien</a>
+                        </li>
+                        <li>
+                            <a href="#formulaWien" class="link">Fórmula de Wien</a>
+                        </li>
+						<li>     
+							<a href="#resumo" class="link">Resumão</a>
+                        </li>
+                        <li>
+							<a href="#referencia" class="link">Refêrencias</a>
+						</li>
+						<li>
+							<a href="#next" class="link">Anterior/Próximo</a>
+						</li>		
+					</ol>
+				</div>
+			</div>
+		
+
+			<div class="conteudo">
+				<div class="borda">
+					<p class="titulo" id="topo">Radiação de um corpo negro</p>
+
+					<br>
+                    
+					<p id="introducao">
+                        <b>Definição</b> 
+                        <br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;Corpo negro é um corpo ideal que absorve toda a radiação que incide no mesmo.
+                        É um absorvedor perfeito, com poder de absorção igual a 1. Como emissividade e 
+                        absortividade são iguais, de acordo com a Lei de Kirchhoff, um corpo negro também 
+                        terá emissividade igual a 1.
+                    </p>
+                    
+                    <p>
+                        Portanto a <b>Lei de Stefan-Boltzmann</b>, para um corpo negro passa a ser:
+                        <div lang="latex" class="formula">
+                            1 = \sigma T^4
+                        </div>
+                    </p>
+
+                    <p class="citacao" id="explicacao">
+                        [...] Qualquer corpo negro, na mesma temperatura, emite radiação térmica com a 
+                        mesma intensidade total. Cada radiação de determinado comprimento de onda, na 
+                        mesma temperatura, também é emitida com a mesma intensidade por todos os corpos
+                        negros, não importando o material de que sejam feitos [...]
+                    </p>
+
+                    <p>
+                        Acima vemos uma pequena explicação sobre a irradiação de um corpo negro.
+                    </p>
+
+
+                    <p id="graficoIntensidadeOnda">
+                        O gráfico abaixo apresenta a intensidade em função do comprimento de onda.
+
+                        <div class="container">
+                            <img src="../../../imagens/modulo3/top3/graficoNegro.gif" title="Intensidade em função do comprimento de onda">
+                        </div>
+                    </p>
+                    
+                    <p>
+                        Podemos observar o gráfico e chegar a conclusão de que a radiação térmica emitida é composta por 
+                        inúmeras radiações, distribuídas em uma faixa contínua de <i lang="latex">\lambda</i>. E a radiação de um certo <i lang="latex">\lambda</i> é 
+                        emitida com máxima intensidade.
+                    </p>
+
+                    <p id="deslocamentoWien">
+                        <b>Lei de Deslocamento de Wien</b>
+                        <br><br>
+                        É a lei que relaciona o comprimento de onda, onde situa a 
+                        máxima emissão de radiação de um corpo negro, e a sua temperatura.
+
+                        <div class="container">
+                            <img src="../../../imagens/modulo3/top3/deslocamentoWien.gif" title="Gráfico de Deslocamento da Lei de Wien">
+                        </div>
+                    </p>
+
+                    <p id="formulaWien">
+                        Observando, ao passar de T1 para T2, é importante notar que a intensidade de cada radiação 
+                        emitida, em um determinado λ, aumenta. Bem como a intensidade total da radiação.
+                        <br>
+                        Em 1893, Wilhelm Wien demonstrou que o ponto máximo da curva desloca-se de acordo com a 
+                        expressão. A fórmula é a seguinte:
+                        
+                        <div lang="latex" class="formula">
+                            \lambda_{max} = \frac{b}{T}
+                        </div>
+                    </p>
+
+                    <p>
+                        Onde <b>b</b> é a constante de dispersão de Wien, cujo valor é <i lang="latex">b = 2,898x10^{-3} m.K</i>
+                    </p>
+
+                    <p class="titulo" id="resumo">RESUMÃO</p>
+					<br><br>
+                    <p>
+						&nbsp;&nbsp;&nbsp;&nbsp;Chegou a hora de fazer o Resumão! Para isso, aqui vão algumas dicas para você fazer o seu de forma completa 
+						e saber tudo sobre os Radiação de um Corpo Negro:
+						<ul>
+							<li>
+                                Um corpo negro é um corpo ideal para absorção do calor.
+                            </li>
+							<li>
+                                Como dito anteriormente, um corpo emite a mesma quantidade que absorve, 
+                                portanto um corpo negro é o ideal para absorver e emitir radiação.
+                            </li>
+						</ul>
+					</p>
+
+                    <hr>
+
+					<p>
+						&nbsp;&nbsp;&nbsp;<b>Refêrencias</b>
+					</p>
+
+					<div class="links" id="referencia">
+						<a href="https://www.sofisica.com.br/conteudos/fisicamoderna/FisicaQuantica/corpo_negro2.php" class="link" target="_blank">SóFísica</a> - Corpo Negro
+					</div>
+
+					<div class="proximo" id="next">
+						<a href="top2.html" class="proximoE"> ←  Anterior</a>
+						<a href="top4.html" class="proximoD">Proxima  →</a>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>

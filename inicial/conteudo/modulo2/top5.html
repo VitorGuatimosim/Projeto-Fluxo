@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+				  
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="../../../Estilo/layoutTop.css">
+  	<link rel="stylesheet" href="../../../Estilo/material.css">
+
+	<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+	<title>Espelhos</title>
+
+</head>
+<body>
+
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+			
+				<div ><a href="../../home.html" class="logo"><img src="../../../imagens/logo.png" class="logo" title="Página inicial"></a></div>
+			
+				<div class="mdl-layout-spacer"></div>
+				
+				<nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="../../modulos.html">Módulos</a>
+				</nav>
+			</div>
+		</header>
+
+	
+		<div class="box">
+			<div class="sumario">
+				
+				<p class="titulo">Sumário</p>
+
+				<div class="links">
+					<ol>
+						<li>
+							<a href="#topo" class="link">Topo</a>
+						</li>
+						<li>
+							<a href="#introducao" class="link">Introdução</a>
+						</li>
+						<li>
+						<a href="#divisaoEspelho" class="link">Divisão dos Espelhos</a>
+						</li>
+						<li>
+							<a href="#geometriaEspelho" class="link">Aspectos geométricos de espelhos esféricos</a>
+						</li>
+						<li>
+							<a href="#elementosEspelho" class="link">Elementos de um Espelho</a>
+                        </li>
+                        <li>
+                            <a href="#foco" class="link">Foco do Espelho</a>
+                        </li>
+                        <li>
+                            <a href="#nImagem" class="link">Fórmula do número de imagens de um Espelho</a>
+                        </li>	
+                        <li>
+                            <a href="#equacaoFundamental" class="link">Equação fundamental</a>
+                        </li>	
+						<li>
+							<a href="#resumo" class="link">Resumão</a>
+                        </li>
+                        <li>
+							<a href="#referencia" class="link">Refêrencias</a>
+						</li>
+						<li>
+							<a href="#next" class="link">Anterior/Próximo</a>
+						</li>		
+					</ol>
+				</div>
+            </div>
+           
+		
+
+			<div class="conteudo">
+				<div class="borda">
+					<p class="titulo" id="topo">Espelhos</p>
+
+					<br>
+
+					<p id="introducao">
+                        Vamos começar pela definição de espelho, que é:
+                        <br>
+                        <ul>
+                            <li>
+                                <b>Espelho:</b> são objetos que não absorvem luz, somente refletindo os raios que chegam a sua 
+                                superfície. Existem espelhos planos e esféricos, sendos os esféricos divididos em côncavos e convexos. 
+                            </li>
+                        </ul>
+                    </p>
+
+                    <p id="divisaoEspelho">
+                        Os espelhos são dividos em dois tipos, planos e esféricos, que são definidos por:
+                        <ul>
+                            <li>
+                                <b>Espelho Plano:</b> São superfícies planas que refletem os raios de luz de 
+                                maneira a criar uma imagem idêntica, mas com uma inversão entre esquerda e direita.
+                                A  distância do objeto ao espelho será igual à distância da imagem ao espelho e a 
+                                altura do objeto será igual a da imagem.
+                            </li>
+                            <li>
+                                <b>Espelho Esférico:</b> Nos espelhos esféricos os angulos de incidencia e de reflexão
+                                são equivalentes. Os outros elementos têm características diferentes em espelhos côncavos 
+                                e convexos.
+                                <br>
+                                <u>CÔNCAVOS:</u> Superfície é a parte interna da esfera
+                                <br>
+                                <u>CONVEXOS:</u> Superfície refletora é a externa da esfera
+                            </li>
+                        </ul>
+                    </p>
+
+                    <p id="geometriaEspelho">
+                        <b>Aspectos geométricos de espelhos esféricos</b>
+                        <br><br>
+                        Para o estudo dos espelhos esféricos é útil o conhecimento dos elementos que os 
+                        compõem, esquematizados na figura abaixo:
+
+                        <br>
+
+                        <div class="container" id="elementosEspelho">
+                            <img src="../../../imagens/modulo2/top5/elementosEspelho.gif" title="Elementos de um Espelho Esférico">
+                            <p class="legenda">Elementos que compõem um Espelho Esférico </p>
+                        </div>
+                    </p>
+
+                    <p id="elementosEspelho">
+                        Na imagem podemos ver os seguintes elementos:
+                        <br>
+                        <ul>
+                            <li>
+                                <b>C</b> é o centro da esfera;
+                            </li>
+                            <li>
+                                <b>V</b> é o vértice da calota;
+                            </li>
+                            <li>
+                                O eixo que passa pelo centro e pelo vértice da calota é chamado eixo principal.
+                            </li>
+                            <li>
+                                As demais retas que cruzam o centro da esfera são chamadas eixos secundários.
+                            </li>
+                            <li>
+                                O ângulo , que mede a distância angular entre os dois eixos 
+                                secundários que cruzam os dois pontos mais externos da calota, é a abertura do espelho.
+                            </li>
+                            <li>
+                                O raio da esfera R que origina a calota é chamado raios de curvatura do espelho.
+                            </li>
+                        </ul>
+                    </p>
+
+                    <p id="foco">
+                        <b>Foco dos Espelhos Esféricos</b>
+                        <br><br>
+                        Para os espelhos côncavos de Gauss, pode-se verificar que todos os raios 
+                        luminosos que incidem ao longo de uma direção paralela ao eixo secundário 
+                        passam por (ou convergem para) um mesmo ponto F, <u>o foco principal do espelho</u>.
+                    </p>
+
+                    <div class="container">
+                        <img src="../../../imagens/modulo2/top5/concavo.gif" title="Espelho Côncavo">
+                        <p class="legenda">Foco de um Espelho Côncavo </p>
+                    </div>
+
+                    <p>
+                        No caso dos espelhos convexos, a continuação do raio refletido é que passa 
+                        pelo foco. Tudo se passa como se os raios refletidos se originassem do foco.
+                    </p>
+
+
+                    <div class="container">
+                        <img src="../../../imagens/modulo2/top5/convexo.gif" title="Espelho Convexo">
+                        <p class="legenda">Foco de um Espelho Convexo </p>
+                    </div>
+
+                    <p id="nImagem">
+                        Para <b>Calcularmos</b> o <b>número de imagens</b> que serão vistas na associação, se usa a seguinte fórmula:
+                    </p>
+
+                    <div lang="latex" class="formula">
+                        n = \frac{360°}{\alpha} - 1
+                    </div>
+                    
+                    <p id="equacaoFundamental">
+                        <b>Equação fundamental dos Espelhos Esféricos</b>
+                    </p>                
+    
+                    <div class="container">
+                        <img src="../../../imagens/modulo2/top5/espelhoEsferico.gif" title="Elementos de um Espelho Esférico">
+                        <p class="legenda">Elementos de um Espelho Esférico </p>
+                    </div>
+
+                    <p>
+                        Dadas a distância focal e posição do objeto, é possível determinar analiticamente a 
+                        posição da imagem através da equação de Gauss, que é expressa por:
+                    </p>
+
+                    <div lang="latex" class="formula">
+                        \frac{1}{f} = \frac{1}{p} + \frac{1}{p^1}
+                    </div>
+    
+                    <Br>
+
+                    <p class="titulo" id="resumo">RESUMÃO</p>
+					<br><br>
+                    <p>
+                        Chegou a hora de fazer o Resumão! Para isso, aqui vão algumas dicas para você fazer o seu de forma completa 
+                        e saber tudo sobre os conceitos do Espelhos:
+                        <ul>
+                            <li>
+                                Tente se lembrar dos componentes de um espelho. Faça seus desenhos ou 
+                                gráficos para lhe ajudar. <a href="#elementosEspelho">Como nessa imagem</a>
+                            </li>
+                            <li>
+                                Uma informação importante também é identificar um espelho côncavo e convexo. 
+                                Sendo o Côncavo curvado para dentro e Convexo curvado para fora. <a href="#foco">Como nesse tópico</a>
+                            </li>
+                            <li>
+                                As duas equações que precisam ser lembradas são, a do <a href="#nImagem">número de imagens</a> e a <a href="#equacaoFundamental">equação de Gauss</a>.
+                            </li>
+                        </ul>
+                    </p>
+
+                    <hr>
+
+					<p>
+						&nbsp;&nbsp;&nbsp;<b>Refêrencias</b>
+					</p>
+
+					<div class="links" id="referencia">
+						<a href="https://pt.wikipedia.org/wiki/Espelho" class="link" target="_blank">Wikipédia</a> - Espelhos
+						<br>
+						<a href="https://www.sofisica.com.br/conteudos/Otica/Reflexaodaluz/espelhoplano.php" class="link" target="_blank">SóFísica</a> - Espelhos Planos 1
+						<br>
+						<a href="https://www.sofisica.com.br/conteudos/Otica/Reflexaodaluz/espelhoplano2.php" class="link" target="_blank">SóFísica</a> - Espelhos Planos 2
+						<br>
+						<a href="https://www.sofisica.com.br/conteudos/Otica/Reflexaodaluz/espelhoesferico.php" class="link" target="_blank">SóFísica</a> - Espelhos Esféricos 1
+						<br>
+						<a href="https://www.sofisica.com.br/conteudos/Otica/Reflexaodaluz/espelhoesferico2.php" class="link" target="_blank">SóFísica</a> - Espelhos Esféricos 2
+	                </div>
+
+					<div class="proximo" id="next">
+						<a href="top4.html" class="proximoE"> ←  Anterior</a>
+						<a href="top6.html" class="proximoD">Proxima  →</a>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>

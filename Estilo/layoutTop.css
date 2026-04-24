@@ -1,0 +1,172 @@
+body{
+	background-color: #F0F0F0;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+.box{
+	display: flex;
+}
+
+.borda{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.titulo{
+	padding-top: 35px;
+	font-family: "Roboto", sans-serif;
+  	text-align: justify;
+  	font-size: 24px;
+	font-weight: bold;
+	padding-left: 30px;  
+  	color: rgb(75,75,75);
+}
+
+div p{
+	font-family: "Roboto",sans-serif;
+	font-size: 18px;
+	color: rgb(75,75,75);
+	line-height: 30px;
+	letter-spacing: 0.5px;
+	word-spacing: 3px;
+	
+}
+
+ul li{
+	font-family: "Roboto",sans-serif;
+	font-size: 18px;
+	color: rgb(75,75,75);
+	line-height: 30px;
+	letter-spacing: 0.5px;
+	word-spacing: 3px;
+}
+
+.conteudo{
+	float: right;
+ 	position: relative;
+	left: 30%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	overflow: auto;
+	
+	text-align: justify;
+	width: 65%;
+	
+	background: rgb(245,245,245);
+	box-shadow: 1px 1px 5px 0px #505050;
+}
+
+.sumario{
+	float: left;
+	position: fixed;
+	margin-top: 25px;
+	left: 5%;
+	overflow: auto;
+
+	text-align: justify;
+	width: 21%;
+	box-sizing: content-box;
+	height: auto;
+	background: rgb(245,245,245);
+	box-shadow: 1px 1px 5px 0px #505050;	
+}
+
+.container img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+    max-height:1000px;
+	width: 50%;
+    height: 250px;
+} 
+
+th img{
+	width: 100% !important;
+	max-width: 600px !important;
+	height: 315px !important;
+}
+
+.esquema{
+	height: 500px !important;
+}
+
+.formulas{
+	width: 650px !important;
+	height: 350px !important;
+}
+
+hr.novo{
+	border-top: 1px solid #505050;
+}
+
+.legenda{
+	text-align: center;
+	font-size: 12px;
+}
+
+.citacao{
+	text-align: center;
+	font-style: italic;
+}
+
+iframe{
+	max-width: 100%;
+	width: 100vh;
+	height: 315px;
+	display: flex;
+}
+
+.mental{
+	width:100%;
+	height: 480px;
+}
+
+a{
+	color: red;
+}
+
+a.link:hover{
+	background-color: rgba(200, 200, 200, 0.35);
+}
+
+div.links{
+	margin-left: 35px;
+	padding-right: 5px;
+	text-align: left;
+}
+
+.links ol a, .links a{
+	color: blue;
+}
+
+.proximo{
+	padding-top: 75px;
+	padding-bottom: 50px;
+	
+	font-family: "Roboto", sans-serif;
+  	text-align: justify;
+  	font-size: 24px;
+  	font-weight: bold;	
+}
+
+.proximo a:hover{
+	background-color: transparent;
+}
+
+.proximoD{
+	color: rgb(33,150,243);
+	float: right;
+	margin-right: 25px;
+}
+
+.proximoE{
+	color: rgb(33,150,243);
+	float: left;
+	margin-left: 25px;
+}
+
+.formula{
+	text-align: center;
+}

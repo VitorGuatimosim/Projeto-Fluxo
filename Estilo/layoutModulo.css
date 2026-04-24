@@ -1,0 +1,88 @@
+.titulo{
+  padding-top: 70px;
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  position: fixed;
+}
+
+.espaco{
+  padding-top: 50px;
+}
+.main {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+}
+
+.div1 {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  width: 33.4%;
+  background-image: url(../imagens/modulos/modulo1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div1:hover{
+  position: relative;
+  top: -5px;
+  box-shadow: 2px 6px 10px 1px black;
+  z-index: 150;
+  cursor: pointer;
+}
+
+.div2 {
+  position: relative;
+  float: left;
+  background-image: url(../imagens/modulos/modulo2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  height: 100%;
+  width: 33.33%;
+}
+
+.div2:hover{
+  position: relative;
+  top: -5px;
+  box-shadow: 2px 6px 10px 1px black, -2px 6px 10px 1px black;
+  
+  z-index: 150;
+  cursor: pointer;
+}
+
+.div3 {
+  position: relative;
+  float:right;
+  background-image: url(../imagens/modulos/modulo3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  height: 100%;
+  width: 33.3%;
+  display: table;
+}
+
+.div3:hover{
+  position: relative;
+  top: -5px;
+  box-shadow: -2px 6px 10px 1px black;
+  z-index: 150;
+  cursor: pointer;
+}
+
+.container {
+position: relative;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+}

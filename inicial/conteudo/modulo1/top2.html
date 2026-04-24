@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+				  
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="../../../Estilo/layoutTop.css">
+  	<link rel="stylesheet" href="../../../Estilo/material.css">
+
+	<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+	<title>Elementos principais de uma onda</title>
+
+</head>
+<body>
+
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+			
+				<div ><a href="../../home.html" class="logo"><img src="../../../imagens/logo.png" class="logo" title="Página inicial"></a></div>
+			
+				<div class="mdl-layout-spacer"></div>
+				
+				<nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="../../modulos.html">Módulos</a>
+				</nav>
+			</div>
+		</header>
+
+	
+		<div class="box">
+			<div class="sumario">
+				
+				<p class="titulo">Sumário</p>
+
+				<div class="links">
+					<ol>
+						<li>
+							<a href="#topo" class="link">Topo</a>
+						</li>
+						<li>
+							<a href="#elementosOnda" class="link">Elementos de uma Onda</a>
+						</li>
+						<li>
+							<a href="#periodoOnda" class="link">Período da Onda</a>
+						</li>
+						<li>
+							<a href="#velocidadeOnda" class="link">Velocidade da Onda</a>
+						</li>
+						<li>
+							<a href="#frequenciaOnda" class="link">Frequência da Onda</a>
+						</li>
+						<li>
+							<a href="#equacaoFundamental" class="link">Equação Fundamental da Ondulatória</a>
+						</li>
+						<li>
+						<a href="#resumo" class="link">Resumão</a>
+						</li>	
+						<li>
+							<a href="#referencia" class="link">Refêrencias</a>
+						</li>	
+						<li>
+							<a href="#next" class="link">Anterior/Próximo</a>
+						</li>
+					</ol>
+				</div>
+			</div>
+		
+
+			<div class="conteudo">
+				<div class="borda">
+					<p class="titulo" id="topo">Elementos principais de uma onda</p>
+
+					<br>
+
+					<p>
+						&nbsp;&nbsp;&nbsp;&nbsp;Ao estudar ondulatória, nos deparamos com diversos conceitos, além dos já vistos no tópico
+						anterior. Para uma melhor organização nos seus estudos, decidimos então criar um tópico 
+						específicos para todos estes elementos, podendo então “dar nome aos bois”. Vamos lá?
+						Para representar graficamente, pode-se utilizar o conceito de onda unidimensional, como a 
+						perturbação de uma corda, como no exemplo abaixo:
+					</p>
+
+					<div class="container"><img src="../../../imagens/modulo1/Top2/elementosOnda.PNG" title="Elementos de uma onda">
+						<p class="legenda">Imagem feita no Geogebra</p>
+					</div>
+
+					<p id="elementosOnda">
+						&nbsp;&nbsp;&nbsp;&nbsp;Em todo gráfico de uma onda, encontramos os seguintes elementos:
+						<ul>
+							<li>
+								<b>Crista:</b> Pico mais alto de uma onda. É a <u>perturbação máxima positiva</u>.
+							</li>
+
+							<li>
+								<b>Vale:</b> Pico mais baixo de uma onda. É a <u>perturbação máxima negativa</u>.
+							</li>
+
+							<li>
+								<b>Comprimento de onda:</b> Representado pela letra grega λ, é a distância que a onda percorre 
+								durante uma oscilação completa. Em outras palavras, é o “tamanho” de uma onda. Pode ser 
+								medida entre o início e o fim de uma oscilação ou entre duas cristas, como na figura, ou
+								ainda entre dois vales.
+							</li>
+
+							<li>
+								<b>Nível médio de oscilação:</b> Normalmente trata-se do eixo X do gráfico. É a perturbação central. 
+								A distância entre o nível médio e uma crista é a mesma que a distância entre o nível médio e 
+								um vale de uma mesma onda.
+							</li>
+
+							<li>
+								<b>Amplitude de onda:</b> Pode ser representada pela letra A. É a distância entre o nível médio de 
+								oscilação e uma crista, ou um vale.
+							</li>
+						</ul>
+					</p>
+
+					<p>
+						<br>
+
+						&nbsp;&nbsp;&nbsp;&nbsp;Com estes elementos, conseguimos denominar novos conceitos. São eles: <u>período</u>, 
+						
+						<u>frequência</u> e <u>velocidade de uma onda</u>.
+
+						<ul>
+							<li id="periodoOnda">
+								<b>Período de uma onda (T):</b> Duração de uma oscilação (λ) completa.<br>
+								Considerando T como o período, N como o número de ondas e Δt como o intervalo de tempo em 
+								segundos, temos:
+							</li>
+						</ul>
+
+						<div lang="latex" class="formula">
+							T = \frac{\Delta t}{N}
+						</div>
+						
+					</p>
+
+					<p>
+						<ul>
+							<li id="frequenciaOnda">
+								<b>Frequência de uma onda (f):</b> É o número de oscilações (λ) por segundo.
+								Considerando f como a frequência, N como o número de ondas e Δt como o intervalo de tempo em 
+								segundos, temos:
+							</li>
+						</ul>
+						
+						<div lang="latex" class="formula">
+							f = \frac{N}{\Delta T}
+						</div>
+
+						<br>
+					</p>
+
+					<p>
+						No Sistema Internacional, a frequência é medida em Hertz (Hz). Logo, deve-se considerar outras 
+						formas de calcular esta grandeza. Assim, considerando s como segundos, temos:
+						
+						<div lang="latex" class="formula">
+							f = \frac{1}{T} = \frac{1}{s}
+						</div>
+
+						
+					</p>
+
+					<p>
+						Observando a relação entre frequência e período, é importante estabelecer novas relações, como 
+						as abaixo:
+
+						<div lang="latex" class="formula">
+							T = \frac{1}{f}
+						</div>
+
+					</p>
+
+					<p>
+						<ul>
+							<li id="velocidadeOnda">
+								<b>Velocidade de uma onda (v):</b> É a distância percorrida por uma oscilação em um determinado 
+								tempo. Em outras palavras, são quantos metros a onda avança por segundo.
+								
+								<br>
+								Considerando v como a velocidade, Δd como a distância percorrida Δt como o intervalo de tempo 
+								em segundos, temos (sim, é aquela fórmula que você usa desde o início de seus estudos de física!):
+							</li>
+						</ul>
+
+							<div lang="latex" class="formula">
+								v = \frac{\Delta d}{\Delta t}
+							</div>
+
+							<br>
+					</p>
+
+					<p id="equacaoFundamental">
+						<b>OBS: Equação Fundamental da Ondulatória</b>
+
+						<br><br>
+
+						A equação fundamental da ondulatória é válida para todos os tipos de onda. Aprofundando os estudos
+						da velocidade de uma onda, encontra-se uma relação, onde a velocidade é descrita como a razão entre
+						o comprimento de onda e o período, como a equação abaixo:
+
+						<div lang="latex" class="formula">
+							v = \frac{\lambda}{T}
+						</div>
+
+						<br>
+					</p>
+
+					<p>
+						Como visto anteriormente, sabe-se que o período é um sobre o valor da frequência, obtendo assim a Equação 
+						Fundamental da Ondulatória:
+
+						<div lang="latex" class="formula">
+							v = \lambda f
+						</div>
+
+						<br>
+					</p>
+
+					<p>
+						(considerando v como a velocidade, λ como o comprimento de onda e f como a frequência).
+						<br>
+					</p>
+					
+					<p class="titulo" id="resumo">RESUMÃO</p>
+					<br><br>
+					<p>
+						&nbsp;&nbsp;&nbsp;&nbsp;Chegou a hora de fazer o Resumão! Para isso, aqui vão algumas dicas para você fazer o 
+						seu de forma completa e saber tudo sobre os elementos principais de uma onda:
+						<ul>
+							<li>
+								Entender a teoria por trás das equações é fundamental para você conseguir aplicá-las. Logo, 
+								procure sempre compreender cada elemento da representação gráfica.
+							</li>
+							
+							<li>
+								Algumas equações estão relacionadas. Logo, caso você esqueça de alguma, tente relacionar 
+								com outra que você já saiba.
+							</li>
+							
+							<li>
+								O auxílio de um simples desenho na resolução de exercícios pode resolver grandes problemas. 
+								Por isso, nosso resumão de hoje é um desenho que retrata todos os elementos principais de uma onda e suas equações.
+							</li>
+						</ul>
+					</p>
+
+					<div class="container"><img src="../../../imagens/modulo1/Top2/elementos-onda.png" title="Elementos de uma onda">
+						<p class="legenda">Resumo dos elementos de uma onda feito à mão</p>
+					</div>
+					
+					<hr>
+
+					<p>
+						&nbsp;&nbsp;&nbsp;<b>Refêrencias</b>
+					</p>
+	
+					<div class="links" id="referencia">
+						Conteúdos retirados dos materiais escolares.
+						<br>
+						PIETROCOLA, Maurício; POGIBIN, Alexander; ANDRADE, Renata; ROMERO, Talita Raquel. 
+						Física: Em Contextos. 1. ed. São Paulo: Editora do Brasil, 2016. 288 p.
+					</div>
+
+
+					<div class="proximo" id="next">
+						<a href="top1.html" class="proximoE"> ←  Anterior</a>
+						<a href="top3.html" class="proximoD">Proxima  →</a>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+body{
+  background-color: #F0F0F0;
+  overflow: auto;
+}
+.box{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+
+h1{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(75,75,75);
+}
+
+.mdl-card {
+  height: 500px; 
+  width: 95%;
+  max-width: 300px;
+  background-image:  url('../imagens/ListaTopicos/ondulatoria.gif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mdl-card2{
+  height: 500px; 
+  width: 95%;
+  max-width: 250px;
+  background-image:  url('../imagens/ListaTopicos/optica.gif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mdl-card3{
+  height: 300px; 
+  width: 95%;
+  max-width: 250px;
+  margin-bottom: 20px;
+  background-image:  url('../imagens/ListaTopicos/moderna.gif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mdl-card3__title-text{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(75,75,75);
+  font-weight: 550;
+  text-align: center;
+  line-height: 25px;
+
+  position: relative;
+  bottom: 30%;
+  
+  margin-top: 30%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mdl-card__title-text{
+
+font-family: "Roboto", sans-serif;
+font-size: 24px;
+color: rgb(75,75,75);
+font-weight: 550;
+text-align: center;
+
+position: relative;
+top: -120px;
+
+margin-right: auto;
+margin-left: auto;
+}
+
+.demo-card-square{
+  color: white;
+  border: none;
+  box-shadow: 1px 1px 5px 0px #505050;
+}
+
+.mdl-card__supporting-text{
+  color: rgb(75,75,75);
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  position: relative;
+  bottom: 60px;
+
+  width: 95%; 
+}
+
+.espaco{
+  margin-top: 10px;
+}
